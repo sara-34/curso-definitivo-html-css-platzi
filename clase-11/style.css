@@ -1,0 +1,13 @@
+/*Todo lo que se encuentra dentro de nuestro selector universal debemos agregarlo siempre*/
+*{
+    box-sizing: border-box ;
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    width: 100%;
+    height: 100%;
+    border: 10px solid gray;
+    padding: 20px 35px;
+}

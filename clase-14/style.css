@@ -1,0 +1,22 @@
+/*Toda etiqueta cerca de parrafo se le aplicara ese estilo */
+h2 + p{
+    color: plum;
+}
+
+/*Hermano General*/
+p ~ h2{
+    color: blueviolet;
+}
+
+/*Hijo Directo*/
+
+div > h3{
+    color: aquamarine;
+}
+
+/*Descendiente*/
+
+div h2{
+    background-color: aqua;
+    color: white;
+}
