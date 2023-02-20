@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.enlaces{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+
+.enlaces ul{
+    margin: 0 10px 0 10px;
+    position: relative;
+    bottom: 30px;
+
+}
+
+.enlaces ul a{
+    text-decoration: none;
+    color: black;
+}
+
+.enlaces ul a:hover{
+    text-decoration: none;
+    color: #318ce7;
+}
+
+.cabecera{
+    width: 100%;
+    height: 50px;
+    background-color: #afcdea;
+}
+
+.logo{
+    top: 8px;
+    margin-left: 10px;
+}
+
+.logo-principal{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: 5px;
+}
+
+.container{
+    width: 250px;
+    height: 200px;
+    background-color: #4a9ae9;
+    border: 10px solid #6aa9e9;
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+
+.imagenes-animales{
+    width: 60px;
+    height: 60px;
+    
+}
+
+.container img{
+    margin-left: 60px;
+    display:inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen-principal{
+    width: 50%;
+
+}
+
+.informacion{
+    
+    width: auto;
+    background-color: #4a9ae9;
+    
+}
+
+.container p{
+    font-size: 10px;
+}
+
+.container-segundo{
+
+    
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    margin-top: -63.3%;
+
+}
+
+.container-segundo .informacion{
+
+    display: flex;
+    align-items: center;
+    width: 80.2%;
+    height: 800px;
+    
+}
+
+.pie-pagina{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 30px;
+    background-color: #afcdea;
+    font-weight: bold;
+    
+}
+
+
+
+
+
+
+    
